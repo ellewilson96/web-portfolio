@@ -46,7 +46,7 @@ textarea:focus {
 
 a:hover,
 a:focus {
-  text-decoration: none;
+  text-decoration: underline;
   outline: none;
 }
 
@@ -161,6 +161,10 @@ ol {
   background-color: #000;
   margin-right: 15px;
   z-index: 1;
+}
+
+.site-btn {
+  justify-content: center;
 }
 
 .site-btn.btn-fade {
@@ -402,7 +406,7 @@ ol {
 
 .portfolio-filter {
   list-style: none;
-  padding-bottom: 100px;
+  padding: 20px;
 }
 
 .portfolio-filter li {
@@ -412,6 +416,7 @@ ol {
   padding-bottom: 10px;
   color: #979797;
   cursor: pointer;
+
 }
 
 .portfolio-filter li.mixitup-control-active {
@@ -569,9 +574,11 @@ ol {
 /*------------------------
     Blog Page
 --------------------------*/
-.blog-item {
+.blog-item:first-child {
+  padding-top: 30px;
   margin-bottom: 70px;
 }
+
 
 .blog-item img {
   border: 1px solid #cdcfd3;
