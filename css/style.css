@@ -627,13 +627,13 @@ ol {
 --------------------------*/
 .contect-tect {
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 .contect-tect h2 {
   padding-top: 30px;
   font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .contect-tect p {
@@ -657,7 +657,7 @@ ol {
 
 .contact-form textarea {
   padding-left: 25px;
-  height: 200px;
+  height: 75px;
   width: 100%;
   border: none;
   border-bottom: 2px solid #000;
