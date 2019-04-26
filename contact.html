@@ -73,23 +73,20 @@
 			<form class="contact-form">
 				<div class="row">
 					<div class="col-md-6">
-						<input type="text" placeholder="Name">
+						<input id="form_name" type="text" name="name" placeholder="Name*" required="required" data-error="Name is required">
 					</div>
 					<div class="col-md-6">
-						<input type="text" placeholder="E-mail">
+						<input id="email" type="email" name="email" placeholder="E-mail*" required="required" data-error="Email is required">
 					</div>
 					<div class="col-md-6">
-						<input type="text" placeholder="Subject">
+						<input id="phone" type="text" name="phone" placeholder="Contact Number">
 					</div>
 					<div class="col-md-6">
-						<input type="text" placeholder="How did you hear about us?">
-					</div>
-					<div class="col-md-6">
-						<textarea placeholder="Message"></textarea>
+						<input id="message" type="text" name="message" rows="3" placeholder="Message*" required="required" data-error="Message cannot be empty">
 					</div>
 				</div>
-				<div class="text-center">
-					<button class="site-btn">Send</button>
+				<div class="text-center"><br>
+					<input type="submit" class="site-btn" value="Send">
 				</div>
 			</form>
 		</div>
@@ -120,5 +117,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="contact.js"></script>
+
 </body>
 </html>
