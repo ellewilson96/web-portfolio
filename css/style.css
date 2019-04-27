@@ -363,6 +363,15 @@ ol {
 
 .site-logo {
   font-size: 24px;
+  padding-left: 15%;
+}
+
+.profile {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  max-width: 8%;
+  height: auto;
 }
 
 .main-menu ul {
@@ -490,6 +499,7 @@ ol {
 }
 
 .portfolio-intro {
+  padding-top: 8%;
   display: block;
 }
 
@@ -575,13 +585,17 @@ ol {
     Blog Page
 --------------------------*/
 .blog-item:first-child {
-  padding-top: 30px;
+  padding-top: 20%;
+}
+
+.blog-item:first-child {
   margin-bottom: 70px;
 }
 
 
 .blog-item img {
   border: 1px solid #cdcfd3;
+
 }
 
 .blog-item .read-more {
