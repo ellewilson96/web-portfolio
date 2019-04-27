@@ -403,7 +403,7 @@ ol {
     Intro Section
 --------------------------*/
 .intro-section {
-  padding: 110px 0;
+  padding: 80px 0;
 }
 
 /*------------------------
@@ -499,7 +499,6 @@ ol {
 }
 
 .portfolio-intro {
-  padding-top: 8%;
   display: block;
 }
 
@@ -584,9 +583,7 @@ ol {
 /*------------------------
     Blog Page
 --------------------------*/
-.blog-item:first-child {
-  padding-top: 20%;
-}
+
 
 .blog-item img {
   border: 1px solid #cdcfd3;
@@ -630,6 +627,26 @@ ol {
 .blog-content p {
   margin-bottom: 30px;
 }
+
+/*------------------------
+    Art Page
+--------------------------*/
+.art-item {
+  width: 90%;
+  margin: auto;
+}
+.art-item img {
+  position: relative;
+  display: block;
+  border: 1px solid #cdcfd3;
+  height: auto;
+  width: 100%;
+}
+
+.thumb {
+  margin-bottom: 30px;
+}
+
 
 /*------------------------
     Contact Page
@@ -762,10 +779,16 @@ ol {
   .section-title {
     font-size: 45px;
   }
+  .section-title h2{
+    text-align: center;
+  }
+
   .portfolio-filter {
     text-align: center;
   }
 }
+
+
 
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
