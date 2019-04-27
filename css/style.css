@@ -367,10 +367,10 @@ ol {
 }
 
 .profile {
-  position: fixed;
+  position: absolute;
   top: 5%;
-  left: 5%;
-  max-width: 8%;
+  left: -5%;
+  max-width: 20%;
   height: auto;
 }
 
@@ -588,14 +588,9 @@ ol {
   padding-top: 20%;
 }
 
-.blog-item:first-child {
-  margin-bottom: 70px;
-}
-
-
 .blog-item img {
   border: 1px solid #cdcfd3;
-
+  height: 390px;
 }
 
 .blog-item .read-more {
