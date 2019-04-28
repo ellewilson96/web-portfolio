@@ -416,6 +416,7 @@ ol {
 .portfolio-filter {
   list-style: none;
   padding: 20px;
+  text-align: center;
 }
 
 .portfolio-filter li {
@@ -523,7 +524,7 @@ ol {
     Footer Section
 --------------------------*/
 .footer-section {
-  padding: 110px 0;
+  padding-bottom: 20px;
 }
 
 .footer-section .copyright {
