@@ -524,6 +524,7 @@ ol {
     Footer Section
 --------------------------*/
 .footer-section {
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -780,7 +781,7 @@ ol {
   .section-title {
     font-size: 45px;
   }
-  .section-title h2{
+  .section-title h2 {
     text-align: center;
   }
 
