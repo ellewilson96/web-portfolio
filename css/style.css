@@ -84,6 +84,8 @@ ol {
   color: #979797;
 }
 
+
+
 /*------------------------
   Common Elements
 --------------------------*/
@@ -153,6 +155,7 @@ ol {
   display: inline-block;
   font-size: 14px;
   min-width: 140px;
+  max-height: 50px;
   text-align: center;
   padding: 15px 10px;
   position: relative;
@@ -196,6 +199,7 @@ ol {
 .site-btn:hover {
   color: #fff;
 }
+
 
 /*===  Accordion  ===*/
 .accordion-area .panel {
@@ -356,30 +360,40 @@ ol {
     Header Section
 --------------------------*/
 .header-section {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  position: relative;
+  padding-bottom: 30px;
+}
+
+.header-section h2 {
+  padding: 20px;
 }
 
 .site-logo {
-  font-size: 24px;
-  padding-left: 15%;
+  float: left;
 }
 
-.profile {
-  position: absolute;
-  top: 5%;
-  left: -5%;
-  max-width: 20%;
-  height: auto;
+.profile img {
+  padding-top: 10px;
+  position: relative;
+  max-width: 10%;
+}
+
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
 }
 
 .main-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
   list-style: none;
 }
 
 .main-menu ul li {
-  display: inline;
 }
 
 .main-menu ul li a {
@@ -390,9 +404,15 @@ ol {
   padding: 20px 0 5px;
 }
 
+.main-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+
 .header-btn {
-  float: right;
-  margin-right: 0;
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }
 
 .nav-switch {
@@ -534,8 +554,8 @@ ol {
 }
 
 .social-links {
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .social-links a {
@@ -580,6 +600,15 @@ ol {
 .milestone h2 span {
   font-size: 18px;
   color: #979797;
+}
+
+/*------------------------
+    Art Page
+--------------------------*/
+
+.canvas-container {
+  position: relative;
+  margin: auto;
 }
 
 /*------------------------
@@ -648,6 +677,19 @@ ol {
 .thumb {
   margin-bottom: 30px;
 }
+
+.canvas-container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
 
 
 /*------------------------
@@ -733,6 +775,9 @@ ol {
   .portfolio-item {
     height: 350px;
   }
+  canvas {
+    max-width: 80%;
+  }
 }
 
 /* Large Mobile :480px. */
@@ -787,6 +832,17 @@ ol {
 
   .portfolio-filter {
     text-align: center;
+  }
+  .canvas-container {
+    padding-top: 100px;
+  }
+  canvas {
+    max-width: 75%;
+  }
+  .profile img {
+    padding-top: 10px;
+    position: relative;
+    max-width: 10%;
   }
 }
 
