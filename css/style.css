@@ -356,11 +356,17 @@ ol {
   margin-bottom: 25px;
 }
 
+.home-profile {
+  margin: auto;
+  max-width: 10%;
+  padding-bottom: 15px;
+}
+
 /*------------------------
     Header Section
 --------------------------*/
 .header-section {
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
 .header-section h2 {
@@ -423,7 +429,7 @@ ol {
     Intro Section
 --------------------------*/
 .intro-section {
-  padding: 50px 0;
+  padding: 15px;
 }
 
 /*------------------------
