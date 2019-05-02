@@ -722,8 +722,9 @@ canvas {
 }
 
 .contact-form {
+  margin: auto;
   display: block;
-  width: 100%;
+  width: 70%;
 }
 
 .contact-form input {
