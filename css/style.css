@@ -357,11 +357,6 @@ ol {
 }
 
 
-.home-profile img {
-  padding-bottom: 15px;
-  position: relative;
-  max-width: 10%;
-}
 
 /*------------------------
     Header Section
@@ -380,6 +375,12 @@ ol {
 
 .profile img {
   padding-top: 10px;
+  position: relative;
+  max-width: 10%;
+}
+
+.home-profile img {
+  padding-bottom: 10px;
   position: relative;
   max-width: 10%;
 }
@@ -855,7 +856,7 @@ canvas {
     padding-top: 80px;
   }
   .home-profile img {
-    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
     max-width: 10%;
   }
