@@ -356,10 +356,11 @@ ol {
   margin-bottom: 25px;
 }
 
-.home-profile {
-  margin: auto;
-  max-width: 10%;
+
+.home-profile img {
   padding-bottom: 15px;
+  position: relative;
+  max-width: 10%;
 }
 
 /*------------------------
@@ -850,10 +851,13 @@ canvas {
     position: relative;
     max-width: 10%;
   }
-  .home-profile {
-    margin: auto;
+  .intro-section {
+    padding-top: 80px;
+  }
+  .home-profile img {
+    padding-top: 10px;
+    position: relative;
     max-width: 10%;
-    padding-bottom: 15px;
   }
 }
 
