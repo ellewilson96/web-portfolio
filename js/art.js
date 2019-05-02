@@ -7,11 +7,9 @@ function clearCanvas() {
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
-canvas.width = 800;
-canvas.height = 500;
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round'; //rounds off the stroke
-ctx.lineWidth = 100;
+ctx.lineWidth = 30;
 
 let isDrawing = false;
 let lastX = 0;
@@ -39,13 +37,13 @@ function draw(e) {
 canvas.addEventListener('mouseover', (e) => {
   isDrawing = true;
   [lastX, lastY] = [e.offsetX, e.offsetY];
-  ctx.lineWidth = 100;
+  ctx.lineWidth = 30;
 });
 
 canvas.addEventListener('mousedown', (e) => {
   isDrawing = true;
   [lastX, lastY] = [e.offsetX, e.offsetY];
-  ctx.lineWidth = 30;
+  ctx.lineWidth = 5;
 });
 
 
