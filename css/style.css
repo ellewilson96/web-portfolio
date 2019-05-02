@@ -385,25 +385,12 @@ ol {
   max-width: 10%;
 }
 
-
-.main-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 100%;
-}
-
 .main-menu ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 10px;
   list-style: none;
 }
-
 .main-menu ul li {
+  display: inline;
 }
-
 .main-menu ul li a {
   display: inline-block;
   font-size: 18px;
@@ -411,6 +398,7 @@ ol {
   margin-right: 25px;
   padding: 20px 0 5px;
 }
+
 
 .main-menu ul li a:hover {
   text-decoration: underline;
@@ -431,7 +419,7 @@ ol {
     Intro Section
 --------------------------*/
 .intro-section {
-  padding: 15px;
+  padding-top: 40px;
 }
 
 /*------------------------
@@ -766,12 +754,30 @@ canvas {
   .home-2.container {
     width: auto;
   }
+  .main-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+  }
+  .main-menu ul li {
+    display: flex;
+  }
 }
 
 /* Medium screen : 992px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-item {
     height: 450px;
+  }
+  .main-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+  }
+  .main-menu ul li {
+    display: flex;
   }
 }
 
@@ -799,7 +805,7 @@ canvas {
     width: 100%;
     z-index: 999;
     left: 0;
-    top: 30px;
+    top: 80px;
     padding-top: 15px;
     display: none;
   }
@@ -807,6 +813,7 @@ canvas {
     padding: 10px 15px;
     border-bottom: 1px solid #ddd;
     display: block;
+    text-align: right;
   }
   .main-menu ul li {
     display: block;
