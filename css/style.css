@@ -386,15 +386,10 @@ ol {
 }
 
 .main-menu ul {
-  position: absolute;
-  left: 32%;
-  height: auto;
-  display: block;
   list-style: none;
 }
 .main-menu ul li {
   display: inline;
-  width: 15%;
 }
 
 .main-menu ul li a {
@@ -634,6 +629,15 @@ canvas {
   display: block;
 }
 
+.recent-gif {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*------------------------
     Blog Page
@@ -853,14 +857,7 @@ canvas {
   }
 }
 
-.recent-gif {
-  display: flex;
-  width: 100%;
-  position: relative;
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 /* small Mobile :320px. */
