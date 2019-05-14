@@ -708,7 +708,6 @@ canvas {
 --------------------------*/
 .contect-tect {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .contect-tect h2 {
@@ -854,6 +853,14 @@ canvas {
   }
 }
 
+.recent-gif {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* small Mobile :320px. */
